@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.wrap {
+  max-width: 1600px;
+  margin: auto;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background: url(img/main.jpg) no-repeat;
+  background-size: cover;
+}
+
+header {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 12%;
+  min-width: 100px;
+  margin-right: 10%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+nav ul {
+  width: max-content;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+.box1,
+.ct1,
+.ct2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.ct1 {
+  max-width: 600px;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+
+.c1 {
+  margin: 0 2rem;
+}
+
+.c1 img {
+  width: 100%;
+}
+
+.box1 {
+  margin: 50px;
+}
+
+.box1-img {
+  width: 50%;
+}
+
+.box1 img {
+  width: 100%;
+}
+
+.box1-text {
+  width: 50%;
+  padding-top: 100px;
+}
+
+.ct2-bg {
+  margin-top: 50px;
+  padding: 70px 100px;
+  background: bisque;
+}
+
+.c2-left {
+  width: 40%;
+  padding-top: 35px;
+}
+
+.c2-right {
+  width: 40%;
+}
+
+.c2-right img {
+  width: 100%;
+}
+
+footer {
+  background: brown;
+  padding: 5% 7%;
+  color: white;
+}
+
+.p-right {
+  font-size: 2rem;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .wrap {
+    width: 96%;
+    margin: 0rem auto;
+  }
+
+  body {
+    font-size: 0.6rem;
+  }
+
+  header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .nav ul {
+    width: max-content;
+    margin: auto;
+  }
+
+  nav ul li {
+    margin: 0 1.3rem;
+  }
+
+  nav ul li a {
+    font-size: 1.1rem;
+  }
+
+  main {
+    height: 600px;
+  }
+
+  .ct1 {
+    margin: 70px 0;
+  }
+
+  .box1,
+  .ct2 {
+    width: 96%;
+    margin: auto;
+  }
+
+  .box1 {
+    margin: 30px 0;
+  }
+
+  .box1-img,
+  .box2-text {
+    width: 50%;
+  }
+
+  .box1-text {
+    padding: 0% 3%;
+    padding-top: 1.5%;
+  }
+
+  .ct2-bg {
+    padding: 1rem 1.8rem;
+  }
+
+  .c2-left {
+    padding-top: 0.5%;
+    font-size: 0.58rem;
+  }
+
+  .p-right {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+}
